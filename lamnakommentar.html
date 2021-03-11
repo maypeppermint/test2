@@ -1,0 +1,72 @@
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVAkritik.se</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>SVAkritik.se</h1>
+    <nav class="mainNav">
+        <a href="index.html" class="active">Hem</a>
+        <a href="sekommentarer.html">Se kommentarer</a>
+        <a href="lamnakommentar.html">Lämna kommentar</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <header>
+        <h2>Vad tycker du om SVA kursen?</h2>
+    </header>
+    <form action="/action_page.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Din kommentar:</legend>
+        <label for="namn">Namn:</label>
+        <input type="text" id="namn" name="namn"><br>
+
+        <input type="radio" id="man" name="kon" value="man">
+        <label for="man">Man</label>
+        <input type="radio" id="kvinna" name="kon" value="kvinna">
+        <label for="female">Kvinna</label>
+        <input type="radio" id="ovrig" name="kon" value="ovrig">
+        <label for="other">Övrig</label><br>
+
+        <label for="modersmal">Ditt modersmål:</label>
+        <input type="text" id="modersmal" name="modersmal"><br>
+
+        <label for="sprak">Språk som du kan:</label>
+        <input type="text" id="sprak" name="sprak"><br>
+
+        <p>Vilken eller vilka kurser har du studerat?</p>
+        <input type="checkbox" id="svag1" name="svag1" value="svag1">
+        <label for="svag1"> SVA Grundläggande 1</label><br>
+        <input type="checkbox" id="svag2" name="svag2" value="svag2">
+        <label for="svag2"> SVA Grundläggande 2</label><br>
+        <input type="checkbox" id="svag3" name="svag3" value="svag3">
+        <label for="svag3"> SVA Grundläggande 3</label><br>
+        <input type="checkbox" id="sva1" name="sva1" value="sva1">
+        <label for="sva1"> SVA 1</label><br>
+        <input type="checkbox" id="sva2" name="sva2" value="sva2">
+        <label for="sva2"> SVA 2</label><br>
+        <input type="checkbox" id="sva3" name="sva3" value="sva3">
+        <label for="sva3"> SVA 3</label><br>
+
+        <textarea name="skolor">Vilken eller vilka skolor har du studerat vid?</textarea><br>
+        <textarea name="kommentar">Din åsikt om skolorna, lärarna eller kuserna?</textarea><br>
+
+        <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+
+    <footer>
+        <ul>
+            <li>Tel: 000000000</li>
+            <li>Email: <a href="mailto:hej@SVAkritik.se">hej@SVAkritik.se</a></li>
+            <li>Lämna kommentarer <a href="lamnakommentar.html">HÄR</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
